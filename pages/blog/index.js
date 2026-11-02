@@ -5,8 +5,8 @@ import { BlogListPage } from '../../page-components/Blog/BlogPages';
 export default function Blog() {
   const siteUrl = 'https://ca-shiris-vyas.netlify.app/blog/';
   const ogImage = 'logoVG STUDY HUB.png';
-  const title = 'CA Shirish Vyas | CA Shirish Vyas - CA Shirish Vyas';
-  const description = 'Get Conceptual Clarity of CA Final IDT - CA Shirish Vyas';
+  const title = 'Impact Commerce Academy | Impact Commerce Academy - Impact Commerce Academy';
+  const description = 'Get Conceptual Clarity of CA Final IDT - Impact Commerce Academy';
 
   return (
     <>
@@ -22,7 +22,7 @@ export default function Blog() {
         <meta property="og:image" content={ogImage} />
         <meta property="og:url" content={siteUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="CA Shirish Vyas" />
+        <meta property="og:site_name" content="Impact Commerce Academy" />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card */}
@@ -34,7 +34,7 @@ export default function Blog() {
 
         {/* Additional SEO */}
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="CA Shirish Vyas Blog, Financial Reporting, Ind AS, CA Final, Accounting Standards, Exam Preparation" />
+        <meta name="keywords" content="Impact Commerce Academy Blog, Financial Reporting, Ind AS, CA Final, Accounting Standards, Exam Preparation" />
       </Head>
       <Layout>
         <BlogListPage />

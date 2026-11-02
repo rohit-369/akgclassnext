@@ -35,15 +35,15 @@ export const slugify = (str) => {
  */
 export const generateMetaTags = (options) => {
   const {
-    title = 'CA Shirish Vyas - Expert coaching for CA Final - Financial Reporting & Ind AS',
+    title = 'Impact Commerce Academy - Expert coaching for CA Final - Financial Reporting & Ind AS',
     description = 'Expert coaching for CA Final - Financial Reporting & Ind AS',
     image = 'https://ca-shiris-vyas.netlify.app/logo.png',
     url = 'https://ca-shiris-vyas.netlify.app',
     type = 'website',
     publishedTime = null,
     modifiedTime = null,
-    author = 'CA Shirish Vyas',
-    keywords = 'CA Shirish Vyas, CA Final, Financial Reporting, Ind AS',
+    author = 'Impact Commerce Academy',
+    keywords = 'Impact Commerce Academy, CA Final, Financial Reporting, Ind AS',
   } = options;
 
   return {
@@ -63,7 +63,7 @@ export const generateMetaTags = (options) => {
           alt: title,
         },
       ],
-      site_name: 'CA Shirish Vyas',
+      site_name: 'Impact Commerce Academy',
       locale: 'en_US',
       ...(publishedTime && { article: { published_time: publishedTime } }),
       ...(modifiedTime && { article: { modified_time: modifiedTime } }),
@@ -108,7 +108,7 @@ export const generateBlogStructuredData = (blog, url) => {
     image = 'https://ca-shiris-vyas.netlify.app/logo.png',
     publishedDate = new Date().toISOString(),
     modifiedDate = new Date().toISOString(),
-    author = 'CA Shirish Vyas',
+    author = 'Impact Commerce Academy',
   } = blog;
 
   return {
@@ -130,7 +130,7 @@ export const generateBlogStructuredData = (blog, url) => {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'CA Shirish Vyas',
+      name: 'Impact Commerce Academy',
       url: 'https://ca-shiris-vyas.netlify.app',
       logo: {
         '@type': 'ImageObject',
@@ -152,10 +152,10 @@ export const generateOrganizationStructuredData = () => {
   return {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
-    name: 'CA Shirish Vyas',
+    name: 'Impact Commerce Academy',
     url: 'https://ca-shiris-vyas.netlify.app',
     logo: 'https://ca-shiris-vyas.netlify.app/logo.png',
-    description: 'Expert coaching for CA Final - Financial Reporting & Ind AS by CA Shirish Vyas',
+    description: 'Expert coaching for CA Final - Financial Reporting & Ind AS by Impact Commerce Academy',
     sameAs: [
       // Add your social media URLs
       'https://www.facebook.com/rishabhjain',
@@ -271,10 +271,10 @@ export const sanitizeMetaDescription = (description, maxLength = 160) => {
 /**
  * Generate unique page title
  * @param {string} pageTitle - Page specific title
- * @param {string} siteName - Site name (default: CA Shirish Vyas)
+ * @param {string} siteName - Site name (default: Impact Commerce Academy)
  * @returns {string} Complete page title
  */
-export const generatePageTitle = (pageTitle, siteName = 'CA Shirish Vyas') => {
+export const generatePageTitle = (pageTitle, siteName = 'Impact Commerce Academy') => {
   if (!pageTitle) return siteName;
   return `${pageTitle} | ${siteName}`;
 };

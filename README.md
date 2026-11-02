@@ -1,6 +1,6 @@
-# CA Shirish Vyas - Next.js Application
+# Impact Commerce Academy - Next.js Application
 
-This is a Next.js conversion of the original React app for CA Shirish Vyas - CA Shirish Vyas | CA Shirish Vyas - CA CA Shirish Vyas.
+This is a Next.js conversion of the original React app for Impact Commerce Academy - Impact Commerce Academy | Impact Commerce Academy - CA Impact Commerce Academy.
 
 ## Getting Started
 

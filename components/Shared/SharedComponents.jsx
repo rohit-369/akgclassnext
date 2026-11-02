@@ -56,7 +56,7 @@ export const Footer = () => {
               <img src="/logo.png" alt="Next Gen CA Logo" className="h-[2.5rem] object-contain" />
             </div>
             <p className="text-slate-400 leading-relaxed">
-              Right from CA Foundation to CA Finals, CA Shirish Vyas excels in his role as a teacher but he also ensures that his students know how to deal with the ups and downs of this CA Journey. Our aim is to provide the best CA coaching for young CA Aspirants.
+              Right from CA Foundation to CA Finals, Impact Commerce Academy excels in his role as a teacher but he also ensures that his students know how to deal with the ups and downs of this CA Journey. Our aim is to provide the best CA coaching for young CA Aspirants.
             </p>
           </div>
 
@@ -200,7 +200,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-[#121333] mt-8 pt-6 text-center text-[10px] text-slate-500">
-          © 2026 {institute?.institue ? institute?.institue : "CA Shirish Vyas"} Education. All rights reserved.
+          © 2026 {institute?.institue ? institute?.institue : "Impact Commerce Academy"} Education. All rights reserved.
         </div>
       </div>
 
@@ -301,7 +301,7 @@ export const Loader = () => (
     }}>
       <img
         src="https://storage.googleapis.com/stepfly-partners-v1-prod.appspot.com/caclass/adminUploads/caclass-logo-circle-white.webp"
-        alt="CA Shirish Vyas Logo"
+        alt="Impact Commerce Academy Logo"
         style={{
           height: '96px',
           width: 'auto',

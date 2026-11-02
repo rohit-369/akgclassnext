@@ -21,7 +21,7 @@ const TESTIMONIALS = [
         name: 'Rahul Mehta',
         date: '10 March 2026',
         rating: 5,
-        text: 'CA Shirish Vyas is an incredible mentor. His handwritten notes are a game changer. I cleared my CA Final DT in first attempt just because of his guidance. Thank you sir for your unwavering support!'
+        text: 'Impact Commerce Academy is an incredible mentor. His handwritten notes are a game changer. I cleared my CA Final DT in first attempt just because of his guidance. Thank you sir for your unwavering support!'
     },
     {
         id: 4,
@@ -119,7 +119,7 @@ export const StudentGallery = () => {
                         OUR SUCCESS STORIES
                     </h2>
                     <p className="mt-2 text-base" style={{ color: '#808081' }}>
-                        Thousands of successful CAs moulded by CA Shirish Vyas
+                        Thousands of successful CAs moulded by Impact Commerce Academy
                     </p>
                 </div>
 

@@ -467,7 +467,7 @@ export const Header = ({ cartCount }) => {
                     CASV
                   </button>
                   <div className="grid text-[12px] whitespace-nowrap font-bold text-slate-900">
-                    CA Shirish Vyas
+                    Impact Commerce Academy
                     <span className='text-[8px] font-medium text-[#B8BED3]'>COMMERCE EDUCATION</span>
                   </div> */}
                 </Link>
@@ -482,7 +482,7 @@ export const Header = ({ cartCount }) => {
                 CASV
               </button>
               <div className="grid text-[12px] whitespace-nowrap font-bold text-slate-900">
-                CA Shirish Vyas
+                Impact Commerce Academy
                 <span className='text-[8px] font-medium text-[#B8BED3]'>COMMERCE EDUCATION</span>
               </div> */}
               <img src="/logo.png" alt="Next Gen CA" className="h-[2rem] object-contain" />

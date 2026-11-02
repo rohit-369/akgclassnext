@@ -9,7 +9,7 @@ export default function FreeResources() {
   return (
     <>
       <Head>
-        <title>{`Free Resources - ${institute?.institue || "CA Shirish Vyas"}`}</title>
+        <title>{`Free Resources - ${institute?.institue || "Impact Commerce Academy"}`}</title>
         <meta name="description" content="Access free study materials and resources" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

@@ -36,7 +36,7 @@ const testimonials = [
   },
   {
     id: "nnA6O4lOLjs",
-    title: "My Journey & Experience with CA Shirish Vyas",
+    title: "My Journey & Experience with Impact Commerce Academy",
     author: "CA Aman Jalan",
     comment: "Simplified memory techniques transformed a massive subject into an enjoyable learning experience.",
   },

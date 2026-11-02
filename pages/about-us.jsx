@@ -50,8 +50,8 @@ export default function AboutUs() {
     return (
         <>
             <Head>
-                <title>{`About Us - ${institute?.institue || 'CA Shirish Vyas'}`}</title>
-                <meta name="description" content="Learn about CA Shirish Vyas - AIR 42 (1997), mentor to over 1 Lakh students for CA Inter/Final Direct Tax with 27+ years of teaching expertise." />
+                <title>{`About Us - ${institute?.institue || 'Impact Commerce Academy'}`}</title>
+                <meta name="description" content="Learn about Impact Commerce Academy - AIR 42 (1997), mentor to over 1 Lakh students for CA Inter/Final Direct Tax with 27+ years of teaching expertise." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Layout>
@@ -72,7 +72,7 @@ export default function AboutUs() {
                                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
                                         About{' '}
                                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500">
-                                            CA Shirish Vyas
+                                            Impact Commerce Academy
                                         </span>
                                     </h1>
                                     <div className="w-20 h-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-full mb-6 mx-auto lg:mx-0"></div>
@@ -80,7 +80,7 @@ export default function AboutUs() {
                                         AIR 42 - 1997 | Mentored over 1 Lakh+ Students for CA Inter/Final Direct Tax
                                     </p>
                                     <p className="text-white/80 leading-relaxed text-base md:text-lg max-w-xl">
-                                        CA Shirish Vyas has been a pioneer in teaching industry taking CA classes in Mumbai for the last 27 years. He is the force behind Prime Vision Professional Education, an education institute founded by him for CA aspirants who want to ace their exams and fulfill their dream of becoming a CA.
+                                        Impact Commerce Academy has been a pioneer in teaching industry taking CA classes in Mumbai for the last 27 years. He is the force behind Prime Vision Professional Education, an education institute founded by him for CA aspirants who want to ace their exams and fulfill their dream of becoming a CA.
                                     </p>
                                 </div>
                                 {/* Right Image */}
@@ -89,7 +89,7 @@ export default function AboutUs() {
                                         <div className="absolute -inset-4 bg-gradient-to-r from-amber-400/30 to-yellow-500/30 rounded-2xl blur-xl"></div>
                                         <img
                                             src="https://cashirishvyas.com/wp-content/uploads/2023/06/ca-shirish-vyas-956x1024.jpg"
-                                            alt="CA Shirish Vyas"
+                                            alt="Impact Commerce Academy"
                                             className="relative w-72 md:w-80 h-auto rounded-2xl shadow-2xl object-cover border-2 border-white/10"
                                         />
                                     </div>
@@ -103,7 +103,7 @@ export default function AboutUs() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                             <div className="max-w-4xl mx-auto">
                                 <p className="text-slate-700 text-base md:text-lg leading-relaxed mb-6">
-                                    At Prime Vision Professional Education, we look at the holistic growth of our CA students by providing what we believe is the best CA coaching in Mumbai. With our unique teaching methodology - CA Shirish Vyas's chosen catchphrases and well-known colour coded notes, our students are equipped with the right skills to learn everything that they need for conceptual understanding within the classroom itself.
+                                    At Prime Vision Professional Education, we look at the holistic growth of our CA students by providing what we believe is the best CA coaching in Mumbai. With our unique teaching methodology - Impact Commerce Academy's chosen catchphrases and well-known colour coded notes, our students are equipped with the right skills to learn everything that they need for conceptual understanding within the classroom itself.
                                 </p>
                                 <p className="text-slate-700 text-base md:text-lg leading-relaxed">
                                     Once they have understood the concept, all they need to do is reinforce the concept through revision. That's the way to ace the CA exams!
@@ -120,21 +120,21 @@ export default function AboutUs() {
                                     <div className="relative inline-block">
                                         <img
                                             src="https://cashirishvyas.com/wp-content/uploads/2023/06/ca-shirish-vyas-956x1024.jpg"
-                                            alt="CA Shirish Vyas - Direct Tax Expert"
+                                            alt="Impact Commerce Academy - Direct Tax Expert"
                                             className="w-full max-w-md mx-auto lg:mx-0 rounded-2xl shadow-lg"
                                         />
                                     </div>
                                 </div>
                                 <div className="order-1 lg:order-2">
                                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-2">
-                                        CA SHIRISH VYAS
+                                        Impact Commerce Academy
                                     </h2>
                                     <p className="text-indigo-600 font-semibold text-lg mb-6 uppercase tracking-wide">
                                         The Direct Tax Expert
                                     </p>
                                     <div className="w-16 h-1 bg-indigo-600 rounded-full mb-6"></div>
                                     <p className="text-slate-700 leading-relaxed text-base md:text-lg">
-                                        Known specifically for his expertise in teaching Direct Tax for 27 years, CA Shirish Vyas has been an inspiration to thousands of students over the years. His name has become synonymous with 'CA Inter/Final Direct Tax'. Clarity, motivation, and constant revision are things all his students will attest to. He is known for helping students become so well-versed in the subject of Direct Tax that all they need to do on the last day is simply revise a few hours before the day of the exam.
+                                        Known specifically for his expertise in teaching Direct Tax for 27 years, Impact Commerce Academy has been an inspiration to thousands of students over the years. His name has become synonymous with 'CA Inter/Final Direct Tax'. Clarity, motivation, and constant revision are things all his students will attest to. He is known for helping students become so well-versed in the subject of Direct Tax that all they need to do on the last day is simply revise a few hours before the day of the exam.
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ export default function AboutUs() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                             <div className="text-center mb-14">
                                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                                    How CA Shirish Vyas Supports You
+                                    How Impact Commerce Academy Supports You
                                 </h2>
                                 <p className="text-indigo-600 font-semibold uppercase tracking-wider text-sm">
                                     In Your Chartered Accountancy Journey
@@ -207,10 +207,10 @@ export default function AboutUs() {
                                             <div className="mt-6 pt-6 border-t border-slate-100">
                                                 <img
                                                     src="https://cashirishvyas.com/wp-content/uploads/2023/06/shirish-vyas-sign-img.png.webp"
-                                                    alt="CA Shirish Vyas Signature"
+                                                    alt="Impact Commerce Academy Signature"
                                                     className="h-16 object-contain mb-2"
                                                 />
-                                                <p className="font-bold text-slate-900 text-lg">CA Shirish Vyas</p>
+                                                <p className="font-bold text-slate-900 text-lg">Impact Commerce Academy</p>
                                                 <p className="text-slate-500 text-sm">Director, Prime Vision Professional Education</p>
                                             </div>
                                         </div>
