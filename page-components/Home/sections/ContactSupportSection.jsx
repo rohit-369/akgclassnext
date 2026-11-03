@@ -6,10 +6,7 @@ const ContactSupportSection = () => {
     const { institute } = useAuth();
     
     const phoneNumbers = [
-         "+919930433999",
-        "+919930422999",
-        "+918591089800",
-        "+918591515899"
+         "084688 99539",
     ];
 
     const handleCall = (phone) => {

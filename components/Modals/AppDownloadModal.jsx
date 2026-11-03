@@ -61,7 +61,7 @@ const AppDownloadModal = ({ open, onClose, brandColor = '#0d5a3e' }) => {
           <Box sx={{ px: 4, pb: 4, space: 2 }}>
             {/* Google Play Store */}
             <a
-              href="https://play.google.com/store/apps/details?id=com.classiolabs.cashriva"
+              href="https://play.google.com/store/apps/details?id=com.classiolabs.impact"
               target="_blank"
               rel="noopener noreferrer"
               onClick={onClose}
@@ -144,7 +144,7 @@ const AppDownloadModal = ({ open, onClose, brandColor = '#0d5a3e' }) => {
 
             {/* Microsoft Store */}
             <a
-              href="https://apps.microsoft.com/detail/9pn6381n9dcm?hl=en-US&gl=IN&ocid=pdpshare"
+              href="https://apps.microsoft.com/detail/9NLFTP4XL6DQ?hl=en-us&gl=IN&ocid=pdpshare"
               target="_blank"
               rel="noopener noreferrer"
               onClick={onClose}
@@ -185,7 +185,7 @@ const AppDownloadModal = ({ open, onClose, brandColor = '#0d5a3e' }) => {
 
             {/* Mac Download */}
             <a
-              href="https://baseclassio.b-cdn.net/macos/v6/CA%20Shirish%20Vyas.zip"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               onClick={onClose}

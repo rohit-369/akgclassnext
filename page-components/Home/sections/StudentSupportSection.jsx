@@ -133,23 +133,23 @@ export const StudentSupportSection = () => {
                                 <div className="mb-4 space-y-2 text-sm">
                                     <div className="flex items-center gap-2">
                                         <MapPin className="w-4 h-4 text-emerald-400" />
-                                        <span className="text-slate-300">{institute?.address || 'B Wing, 1st Floor, Bhakti Apt, Opp. Jain Temple, Jambhali Galli, Near Moksh Plaza, Borivali West, Mumbai – 400092.'}</span>
+                                        <span className="text-slate-300">{institute?.address || '6th Floor, Maruti Plaza B - Wing Keshavrao More Marg, Vidya Vikas Cir, above Shagun Tadka Hotel, Nashik, Maharashtra 422005'}</span>
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <Mail className="w-4 h-4 text-emerald-400" />
-                                        <a href={`mailto:${institute?.email || 'cashirishvyasonline@gmail.com'}`} className="text-slate-300 hover:text-white">{institute?.email || 'cashirishvyasonline@gmail.com'}</a>
+                                        <a href={`mailto:${institute?.email || 'info@gmail.com'}`} className="text-slate-300 hover:text-white">{institute?.email || 'info@gmail.com'}</a>
                                     </div>
                                 </div>
 
                                 <div className="space-y-3">
                                     <a
-                                        href="tel:+918591089800"
+                                        href="tel:+918468899539"
                                         className="w-full bg-white text-slate-900 py-3 rounded-xl font-bold text-sm hover:bg-slate-200 transition-colors flex items-center justify-center gap-2 shadow-md"
                                     >
-                                        <Phone /> Call: {institute?.instituteAppSettingsModals?.contact || '+91 85910 89800'}
+                                        <Phone /> Call: {institute?.instituteAppSettingsModals?.contact || '+91 8468 899539'}
                                     </a>
                                     <a
-                                        href={`https://wa.me/8591089800`}
+                                        href={`https://wa.me/918468899539`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-full bg-[#25D366] text-white py-3 rounded-xl font-bold text-sm hover:bg-[#20ba5a] transition-colors flex items-center justify-center gap-2 shadow-md border border-white/20"

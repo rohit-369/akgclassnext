@@ -403,15 +403,15 @@ export const Header = ({ cartCount }) => {
                 className="flex items-center gap-1 md:gap-2 text-sm font-medium hover:text-green-400 transition"
               >
                 <span className="text-xs md:text-base">✉️</span>
-                <span className="hidden md:inline">{institute?.email || "cashirishvyasonline@gmail.com"}</span>
+                <span className="hidden md:inline">{institute?.email || "info@gmail.com"}</span>
               </a>
 
               <a
-                href={`tel:${institute?.instituteAppSettingsModals?.contact || '+918591089800'}`}
+                href={`tel:${institute?.instituteAppSettingsModals?.contact || '+918468899539'}`}
                 className="flex items-center gap-1 md:gap-2 text-sm font-medium hover:text-green-400 transition"
               >
                 <span className="text-xs md:text-base">📞</span>
-                <span className="hidden sm:inline">{institute?.instituteAppSettingsModals?.contact || '+91 85910 89800'}</span>
+                <span className="hidden sm:inline">{institute?.instituteAppSettingsModals?.contact || '+91 8468 899539'}</span>
               </a>
 
             </div>
@@ -462,7 +462,7 @@ export const Header = ({ cartCount }) => {
 
               <div className="flex flex-col items-center">
                 <Link href="/" className="flex items-center gap-2 cursor-pointer">
-                  <img src="/logo.png" alt="Next Gen CA" className="h-[2.5rem] object-contain" />
+                  <img src="/logo.png" alt="Next Gen CA" className="h-[5rem] object-contain" />
                   {/* <button className="hidden md:flex ${theme.primaryClass} ${theme.primaryHoverClass} bg-slate-900 hover:bg-slate-800 text-white px-3 py-3 rounded-lg text-lg font-bold transition-all items-center gap-2 shadow-lg hover:shadow-slate-300 hover:-translate-y-0.5`">
                     CASV
                   </button>

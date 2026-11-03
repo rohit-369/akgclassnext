@@ -51,9 +51,9 @@ export const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <div
               onClick={() => window.location.href = "/"}
-              className="text-white font-bold text-lg mb-2 flex items-center gap-2 cursor-pointer p-1 bg-white"
+              className="text-white font-bold text-lg mb-2 flex items-center gap-2 cursor-pointer p-1"
             >
-              <img src="/logo.png" alt="Next Gen CA Logo" className="h-[2.5rem] object-contain" />
+              <img src="/logo.png" alt="Next Gen CA Logo" className="h-[5rem] object-contain rounded-3xl" />
             </div>
             <p className="text-slate-400 leading-relaxed">
               Right from CA Foundation to CA Finals, Impact Commerce Academy excels in his role as a teacher but he also ensures that his students know how to deal with the ups and downs of this CA Journey. Our aim is to provide the best CA coaching for young CA Aspirants.
@@ -184,15 +184,15 @@ export const Footer = () => {
             <ul className="space-y-2 text-slate-400">
               <li className="leading-relaxed">
                 <span className="text-white font-medium block mb-0.5">Call Matrix:</span>
-                {institute?.instituteAppSettingsModals?.contact || "+91 99304 33999 | +91 99304 22999 || +91 85910 89800 | +91 85915 15899"}
+                {institute?.instituteAppSettingsModals?.contact || "084688 99539"}
               </li>
               <li className="break-all">
                 <span className="text-white font-medium block mb-0.5">Email Support:</span>
-                {institute?.email || "cashirishvyasonline@gmail.com"}
+                {institute?.email || "info@gmail.com"}
               </li>
               <li className="leading-relaxed">
                 <span className="text-white font-medium block mb-0.5">Campus Desk:</span>
-                {institute?.address || 'B Wing, 1st Floor, Bhakti Apt, Opp. Jain Temple, Jambhali Galli, Near Moksh Plaza, Borivali West, Mumbai – 400092.'}
+                {institute?.address || '6th Floor, Maruti Plaza B - Wing Keshavrao More Marg, Vidya Vikas Cir, above Shagun Tadka Hotel, Nashik, Maharashtra 422005.'}
               </li>
             </ul>
           </div>

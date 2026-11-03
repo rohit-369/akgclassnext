@@ -56,7 +56,7 @@ export const FreeResources = () => {
                             <p className="text-slate-400 text-sm mb-4 max-w-xs mx-auto md:mx-0">Download the {institute?.institue ? institute?.institue : "Impact Commerce Academy"} App for offline viewing, live classes, and unlimited access to study materials.</p>
                             <div className="flex flex-wrap justify-center md:justify-start gap-3">
                                 <a
-                                    href="https://play.google.com/store/apps/details?id=com.classiolabs.cashriva"
+                                    href="https://play.google.com/store/apps/details?id=com.classiolabs.impact"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-white text-black px-4 py-2 rounded-lg text-xs font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors shadow-md"
